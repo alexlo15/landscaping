@@ -14,6 +14,7 @@ let cur = [];
 // Only not doing it here to keep this Pen dependency-free.
 
 window.addEventListener("scroll", event => {
+
     let fromTop = window.scrollY;
 
     mainNavLinks.forEach(link => {
