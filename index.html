@@ -52,10 +52,111 @@
             satisfaction and the quality of their properties.</p>
     </section>
 
-    <img src="images/tractor.jpg" alt="">
-    <img src="images/hatteras.jpg" alt="">
-    <img src="images/lawn.jpg" alt="">
-    <img src="images/redshutters.jpg" alt="">
+
+    <!-- Container for the image gallery -->
+    <div class="container">
+
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+            <div class="numbertext">1 / 10</div>
+            <img src="images/hatteras.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 10</div>
+            <img src="images/front.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 10</div>
+            <img src="images/patio.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 10</div>
+            <img src="images/tractor.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 10</div>
+            <img src="images/lawn.jpg" style="width:100%">
+        </div>
+
+
+        <div class="mySlides">
+            <div class="numbertext">6 / 10</div>
+            <img src="images/421.jpg" style="width:100%">
+        </div>
+
+
+        <div class="mySlides">
+            <div class="numbertext">7 / 10</div>
+            <img src="images/redshutters.jpg" style="width:100%">
+        </div>
+
+
+        <div class="mySlides">
+            <div class="numbertext">8 / 10</div>
+            <img src="images/before.jpeg" style="width:100%">
+        </div>
+
+
+        <div class="mySlides">
+            <div class="numbertext">9 / 10</div>
+            <img src="images/after.jpeg" style="width:100%">
+        </div>
+
+
+        <div class="mySlides">
+            <div class="numbertext">10 / 10</div>
+            <img src="images/pool.jpg" style="width:100%">
+        </div>
+
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="images/hatteras.jpg" style="width:100%" onclick="currentSlide(1)" alt="Hatteras Press">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/front.jpg" style="width:100%" onclick="currentSlide(2)" alt="Call Steve for more info!">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/patio.jpg" style="width:100%" onclick="currentSlide(3)" alt="Patio renovations">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/tractor.jpg" style="width:100%" onclick="currentSlide(4)" alt="Top of the line equipment">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/lawn.jpg" style="width:100%" onclick="currentSlide(5)" alt="Expert lawncare">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/421.jpg" style="width:100%" onclick="currentSlide(6)" alt="Completely original redesigns">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/redshutters.jpg" style="width:100%" onclick="currentSlide(7)" alt="Call Steve for info!">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/before.jpeg" style="width:100%" onclick="currentSlide(8)" alt="Front yard before shot">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/after.jpeg" style="width:100%" onclick="currentSlide(9)" alt="Front yard after shot">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/pool.jpg" style="width:100%" onclick="currentSlide(10)" alt="Full and rich lawns by Steve">
+            </div>
+        </div>
+    </div>
+
 
     <!--Pricing-->
     <section id="section-2">
@@ -79,6 +180,28 @@
         <p>Steve is reliable and reasonable priced. He is efficient and clean. He puts his heart into the job he does. I
             can always trust him to clean up my yard! My lawn never looked better.</p>
         <h2><b>-Suzanne Mangiafico, Wall Twnshp</b></h2>
+        <br><br>
+        <p>We hired Steve a few years back and are so happy we did! He has been so professional, understanding and
+            caring for all of our lawn needs. From the first call to the completed project, it has always been a
+            pleasure. Steve always listens to our needs and made great suggestions when it comes to our property. He
+            helped us transform our jingle of a yard to a more pleasant beautiful yard that’s great for our family. My
+            two little boys even love him and like to help him cut the lawn. He’s super friendly, and so very
+            meticulous. He really takes pride in his work. We would recommend him for your small needs and also any huge
+            needs you may have for your lawn. He’s the best!!
+        </p>
+        <h2><b>
+            - Nicole Kaymakcian, Tinton Falls
+        </b></h2>
+        <br><br>
+        <p>
+            I would highly recommend steve for your yard and lawn care ! He shows up when he says he will be there and
+            always does a great job ! He takes the time to move things that may be in the way rather than just go around
+            them and pays extra attention to the finishing touch of edging. Excellent cleanup guy too ! Most thorough
+            job I've ever had.
+        </p>
+        <h2><b>
+            - Jan Ormsbee, Wall
+        </b></h2>
     </section>
 
     <!--Contact-->
@@ -91,7 +214,7 @@
 
 <!--Footer-->
 <footer>
-    <div style="position: absolute; display: inline-block;  top: 50%;  left: 50%;  transform: translate(-50%, -50%); text-wrap: none;">
+    <div style="position: absolute; display: inline-block;  top: 50%;  left: 50%;  transform: translate(-50%, -50%); white-space: nowrap">
         &copy;2020 Maxwell Landscaping &nbsp;|&nbsp; <i class="fa fa-phone"></i>&nbsp;908-902-1937
     </div>
 </footer>
